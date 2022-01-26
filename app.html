@@ -1,26 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>		
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="HandheldFriendly" content="true">
-    <meta name = "format-detection" content = "telephone=no">
-        
-    <title>Background Animation</title>
-
-	<!-- Styles -->
-    <link rel="stylesheet" type="text/css"  href="css/style.css" />
-
+    <meta charset="utf-8">    
+    <title>VINHETA 2022</title>
+    <link rel="stylesheet" href="style.css" />
+   
 </head>
 <body>
-    <div class="container">
-        <h2>May the Force be with you!</h2>
-        <div class="bg">
-            <div class="block"></div>
-        </div>
-
-        <script src="js/script.js"></script>
+    <div class="container"></div>
+     <script>   
+         let container = document.querySelector('container');
+	     for (var i = 0; 9i<=400; i++){
+	       let block = document.createElement('div');
+		     block.classList.add('block');
+		     container.appendChild(block);
+	     }
+     </script>
        
  </body> 
  </html>
