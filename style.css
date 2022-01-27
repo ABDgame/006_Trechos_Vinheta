@@ -16,7 +16,7 @@ body
   display: flex;
   flex-wrap: wrap;
   transform-style: preserve-3d;
-  perspecive: 100px;
+  perspective: 1000px;
 }
 .container.block
 {
@@ -24,7 +24,7 @@ body
   width: 5vw;
   height: 5vw;
   background: #f00;
-  border: 1px solid#111;
+  border: 1px solid #111;
   box-sizing: border-box;
   transform-style: preserve-3d;
 }
