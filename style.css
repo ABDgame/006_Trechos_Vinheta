@@ -26,7 +26,8 @@ body
   background: url(backgroung.png);
   background-size: cover;
   background-attachment: fixed;
-  /*border: 1px solid #111;
-  box-sizing: border-box;*/
+  bakground-position: center;
+  border: 1px solid #111;
+  box-sizing: border-box;
   transform-style: preserve-3d;
 }
