@@ -23,8 +23,10 @@ body
   position: relative;
   width: 5vw;
   height: 5vw;
-  background: #f00;
-  border: 1px solid #111;
-  box-sizing: border-box;
+  background: url(backgroung.png);
+  background-size: cover;
+  background-attachment: fixed;
+  /*border: 1px solid #111;
+  box-sizing: border-box;*/
   transform-style: preserve-3d;
 }
