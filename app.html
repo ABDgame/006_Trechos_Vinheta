@@ -14,17 +14,21 @@
      referrerpolicy="no-referrer"></script>
 
      <script>   
-           let container = document.querySelector('.container');
-	     for (var i = 0; i<=400; i++){
+           let container = document.querySelector('.
+           container');
+	   for (var i = 0; i<=400; i++){
 	       let block = document.createElement('div');
-		     block.classList.add('block');
-		     container.appendChild(block);
+	block.classList.add('block');
+	container.appendChild(block);
 	     }
+	     
             let block = document.querySelectorAll('.block');
             let animation = anime.timeline({
               targets: block;
               easing: 'easeInOutExpo',
               loop: true,
+		    delay: anime.stragger(10, {start:50}),
+	
            })
 
            animation
