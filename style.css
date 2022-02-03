@@ -27,7 +27,7 @@ body
   background-size: cover;
   background-attachment: fixed;
   bakground-position: center;
-  /*border: 1px solid #111;
-  box-sizing: border-box;*/
+  border: 1px solid #111;
+  box-sizing: border-box;
   transform-style: preserve-3d;
 }
