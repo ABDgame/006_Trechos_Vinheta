@@ -27,7 +27,7 @@
               targets: block;
               easing: 'easeInOutExpo',
               loop: true,
-		    delay: anime.stragger(10, {start:50}),
+		    delay: anime.stagger(10, {start:50}),
 	
            })
 
@@ -35,9 +35,9 @@
            .add({
              scale:0,
              translateX:function(){ return anime.random
-             (-360, 2100);},
+             (360, 2100);},
              translateY:function(){ return anime.random
-             (-360, 2100);},
+             (360, -2100);},
              rotate:function(){ return anime.random
              (-360, 360);},
              duration:function(){ return anime.random
