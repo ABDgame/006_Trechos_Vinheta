@@ -1,59 +1,23 @@
 <!DOCTYPE html>
-<html>
-<head>		
-    <meta charset="utf-8">    
-    <title>VINHETA 2022</title>
-    <link rel="stylesheet" href="style.css" />
-   
-</head>
+<html lang= "pt-br">
+<head>
+   <title> VINHETA 2024 </title>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <link rel="stylesheet" type="text/css" href="style.css"/>
+ </head>
 <body>
-    <div class="container"></div>
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q==" 
-     crossorigin="anonymous" 
-     referrerpolicy="no-referrer"></script>
-
-     <script>   
-           let container = document.querySelector('.
-           container');
-	   for (var i = 0; i<=400; i++){
-	       let block = document.createElement('div');
-	block.classList.add('block');
-	container.appendChild(block);
-	     }
-	     
-            let block = document.querySelectorAll('.block');
-            let animation = anime.timeline({
-              targets: block;
-              easing: 'easeInOutExpo',
-              loop: true,
-		    delay: anime.stagger(10, {start:50}),
-	
-           })
-
-           animation
-           .add({
-             scale:0,
-             translateX:function(){ return anime.random
-             (360, 2100);},
-             translateY:function(){ return anime.random
-             (360, -2100);},
-             rotate:function(){ return anime.random
-             (-360, 360);},
-             duration:function(){ return anime.random
-             (500, 3000);}
-           })
-
-           add({
-             scale:1,
-             translateX:0,
-             translateY:0,
-             rotate:0,
-             duration:function(){ return anime.random
-             (500, 3000);}
-           })
-     </script>
-       
- </body> 
- </html>
+    <h1 class="type"></h1>
+    <script type="text/javascript" src="typed.js"></script>
+    <script type="text/javascript">
+    	var typed = new Typed(".type", {
+          strings: ["TRECHOS DE ...", "... FRONTEND ...","... JOGOS EDUCATIVOS...","...MOBILE FIRTS.","CURTA *.* ","INSCREVA-SE *.*","ATIVE O SININHO *.* ","COMPARTILHE = )",
+          ],
+          typeSpeed: 50,
+          backSpeed: 50,
+          loop: true
+        });
+    </script>
+</body>
+</html>
 
