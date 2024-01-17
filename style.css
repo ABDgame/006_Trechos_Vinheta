@@ -1,33 +1,25 @@
-*
-{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 body
 {
-  min-height: 100vh;
-  overflow: hidden;
-  background: #fff;
+    margin: 0;
+    padding:0;
+    background: url("VINHETA.jpg");
 }
-.container
+h1
 {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  transform-style: preserve-3d;
-  perspective: 1000px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    text-shadow: 0 1px 0 #111, 0 1px 15px rgba(0,0,0,.2),0 2px 0 #111, 0 3px 0 #111, 0 4px 0 #111, 0 5px 0 #111,
+    0 6px 0 #111, 0 7px 0 #111, 0 20px 30px rgba(0,0,0,.10);
+    color: #009BDD; 
+    font-size: 80px;
 }
-.container.block
-{
-  position: relative;
-  width: 5vw;
-  height: 5vw;
-  background: url(backgroung.png);
-  background-size: cover;
-  background-attachment: fixed;
-  bakground-position: center;
-  border: 1px solid #111;
-  box-sizing: border-box;
-  transform-style: preserve-3d;
-}
+
+
+
+
